@@ -1,12 +1,4 @@
 os: linux
 files:
-   - source: /
+   - source: /test.php
      destination: /var/www/html
-permissions:
-   - object: /var/www/html
-     pattern: "**"
-     owner: apache
-     group: apache
-     mode: 755
-     type:
-       - file
