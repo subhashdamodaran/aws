@@ -1,4 +1,3 @@
-os: linux
 files:
    - source: /test.php
      destination: /var/www/html
